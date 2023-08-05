@@ -1,8 +1,104 @@
+/* Background Container */
 .login__bg {
-    background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-image: url(https://w0.peakpx.com/wallpaper/487/412/HD-wallpaper-astronaut-space-animation-anime-drawing-man-stars.jpg);
     height: 92vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
+}
+
+/* Form Container */
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Form Styling */
+.login-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.login-form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+.login-form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.login-form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+}
+
+.login-button .spinner {
+    margin-left: 5px;
+}
+
+.login-form-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #777;
+}
+
+.login-form-footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.login-form-footer a:hover {
+    text-decoration: underline;
 }
