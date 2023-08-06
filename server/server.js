@@ -17,7 +17,7 @@ const server = require('http').createServer(app);
 const PORT = 5001;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://main--playful-madeleine-8ff576.netlify.app',
+    origin: 'https://main--voxaura.netlify.app',
     methods: ['GET', 'POST']
   }
 })
