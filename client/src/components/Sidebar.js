@@ -42,7 +42,7 @@ function Sidebar() {
     });
 
     function getRooms() {
-        fetch("https://voxaura76.onrender.com//rooms")
+        fetch("https://voxaura76.onrender.com/rooms")
             .then((res) => res.json())
             .then((data) => setRooms(data));
     }
